@@ -10,9 +10,7 @@
 #include "WifiWebServer.h"
 #include "TaskScheduler.h"
 #include "TaskSchedulerDeclarations.h"
-#define API_KEY "AIzaSyDbF_Po75JICDbaXlF4wl4B0BCR9oLW7a8"
-#define DATABASE_URL "https://flowerpot-653f1-default-rtdb.europe-west1.firebasedatabase.app/"
-
+#include "Common.h"
 bool notified = false; // aby se notifikace poslala jen jednou
 
 #define ECHO_PIN 5
